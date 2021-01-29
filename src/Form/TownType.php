@@ -14,7 +14,7 @@ class TownType extends AbstractType
     {
         $builder
             ->add('city')
-            ->add('Voir', SubmitType::class)
+            ->add('voir', SubmitType::class)
         ;
     }
 
